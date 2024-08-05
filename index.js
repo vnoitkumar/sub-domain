@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
     res.send(`Welcome to ${req.subdomain}'s page!`);
 });
 
-app.listen(3000);
+app.listen(80);
